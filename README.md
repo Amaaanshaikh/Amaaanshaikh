@@ -1,6 +1,6 @@
 I have just started learning python, here is what I do, 
 Starting with comments,
-Adding notes in you program is known as comments, and they start with symbol #
+Adding notes in the program is known as comments, and they start with symbol #
 # to compute the percentage of the hour that has elapsed
 # percentage = (minute*100)/60
 # print(percentage)
@@ -28,5 +28,6 @@ Adding notes in you program is known as comments, and they start with symbol #
 # 17 - Exception - An error in a program that makes it impossible to detect until the program is ran. 
 # 18 - Semantic error - A type of error that is not possible to detect, does exactly the same but something other than what the programmer intended.
 # 2.10 Exercises 
+In
 
 -->
