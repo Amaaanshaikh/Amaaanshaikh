@@ -27,7 +27,11 @@ Adding notes in the program is known as comments, and they start with symbol #
 # 16 Syntax error - An error in a program that makes it impossible to erase (and therefore impossible to interpret)
 # 17 - Exception - An error in a program that makes it impossible to detect until the program is ran. 
 # 18 - Semantic error - A type of error that is not possible to detect, does exactly the same but something other than what the programmer intended.
-# 2.10 Exercises 
-In
+# 19 Now I'm learning Naming rules and conventions,
+# 20 Names cannot contain spaces
+# 21 Names may be a mixture of upper and lower case characters
+# 22 Names can't start with a number but may contain numbers after the first character 
+# 23 Variable names and functions names should he written in snake_case, which means that all letters are lowercase and words are seperated using undersocre.
+# 24 Descriptive names are better than cryptic abbreviations because they help other programmers read and interpret your code. For example, student_name is better than sn. It may feel excessive when you write it, but when you return to your code you'll find it much easier to understand.
 
 -->
