@@ -34,4 +34,35 @@ Adding notes in the program is known as comments, and they start with symbol #
 # 23 Variable names and functions names should he written in snake_case, which means that all letters are lowercase and words are seperated using undersocre.
 # 24 Descriptive names are better than cryptic abbreviations because they help other programmers read and interpret your code. For example, student_name is better than sn. It may feel excessive when you write it, but when you return to your code you'll find it much easier to understand.
 
--->
+# with the help of google colab I made a program, where you guess the number game.
+import random
+
+def guess_the_number():
+    while True: # Outer loop for playing multiple rounds
+        secret_number = random.randint(1, 100)
+        guess = 0
+        attempts = 0
+
+        print("\nWelcome to Guess the Number!")
+        print("I'm thinking of a number between 1 and 100.")
+
+        while guess != secret_number:
+            try:
+                guess = int(input("Take a guess: "))
+                attempts += 1
+
+                if guess < secret_number:
+                    print("Too low! Try again.")
+                elif guess > secret_number:
+                    print("Too high! Try again.")
+                else:
+                    print(f"Congratulations! You guessed the number in {attempts} attempts!")
+            except ValueError:
+                print("Invalid input. Please enter a whole number.")
+
+        play_again = input("Do you want to play again? (yes/no): ").lower()
+        if play_again != 'yes':
+            print("Thanks for playing!")
+            break # Exit the outer loop if the user doesn't want to play again
+
+# In this after running the program, you need to guess a number and the program will tell the frequency in what the number is valid in, for example, if the number is higher, it will say "Too High", if the number is low, it will say "Too Low" and if the number is correct it will say Congratulations! You guessed the number in {attempts} attempts! and the attempts in the bracket shows the number of tries.
