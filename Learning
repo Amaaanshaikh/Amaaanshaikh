@@ -1,1 +1,6 @@
-
+# I have started learning about how to create a bigquery
+# In that bigquery I have sucessfully created a storage bucket with multi region US
+# After failed successful tries I have sucessfully created a bucket.
+# Using a CSV file, generating sample CSV file form AI, i uploaded it in the bucket.
+# Now after understanding the difference between how and what file is to be uploaded and suitable for google cloud console, I have uploaded a plain text editor file named .csv.
+# Now after this we will create a dataset and create 
