@@ -3,4 +3,11 @@
 # After failed successful tries I have sucessfully created a bucket.
 # Using a CSV file, generating sample CSV file form AI, i uploaded it in the bucket.
 # Now after understanding the difference between how and what file is to be uploaded and suitable for google cloud console, I have uploaded a plain text editor file named .csv.
-# Now after this we will create a dataset and create 
+# Now after this we will create a dataset and create table.
+# Now that it asked me to star the project, i was confused between the project name and ID later realizing that in the sidebar, the colum shows the project ID instead of column name.
+# Moving to, I tried starring the project ID that was already in the sidebar, which gave an error. 
+# After realizing that it was an error i cross checked.
+# Now after that I wanted to create a tablle again casue the steps I used werent noted so i deleted the enitre project and created a new one.
+# The first bucket was from an Asian server later while choosing the multi region it gave me difficulites, so i created a new bucket with US region kinda making it easy to understand.
+#  Now we will start with my first SQL aggregation query directly inside Bigquery,
+
